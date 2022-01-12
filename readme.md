@@ -1,0 +1,1 @@
+In 2021, I participated in a course about reinforcement learning and presented a paper about distributional reinforcement learning. You can find the video here on YouTube: https://youtu.be/lWYb7RSxtI0
