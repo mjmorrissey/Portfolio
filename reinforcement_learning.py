@@ -54,7 +54,7 @@ class QNet(nn.Module):
         self.latent_dim_pi = last_layer_dim_pi
         self.latent_dim_vf = last_layer_dim_vf
         # Value network layers
-        self.fc_v1 = nn.Linear(feature_dim, 64)
+        self.fc_v1 = nn.Linear(feature_dim, 128)
         self.fc_v2 = nn.Linear(128, last_layer_dim_vf)
 
     def forward(self, features: th.Tensor) -> th.Tensor:
